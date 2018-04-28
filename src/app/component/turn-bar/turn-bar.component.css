@@ -5,6 +5,8 @@
 .turn>ul{
   display: flex;
   height: 35px;
+  list-style: none;
+  padding: 0;
 }
 .turn>ul>li{
   height: 35px;

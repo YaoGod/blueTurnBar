@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  pageNo = 1;
+  pageSize = 10;
+  total = 50;
+
+  getDataList(pageNo){
+    this.pageNo = pageNo;
+  }
 }
